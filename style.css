@@ -28,7 +28,6 @@
 
 
 /* main styles */
-/* header */
 
 nav{
     width: 100%;
@@ -141,3 +140,66 @@ nav .menu a{
     border: 1px solid ;
 }
 
+#notes{
+    width: 100%;
+    padding: 80px 20px;
+    background-color: #ffffff;
+}
+
+.notes-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-heading h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.section-heading p{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 48px;
+}
+
+.notes-box{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.note-card{
+    width: 320px;
+    padding: 32px 24px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.note-card .icon{
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.note-card h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.note-card p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #757575;
+}
