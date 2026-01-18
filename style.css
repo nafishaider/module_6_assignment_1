@@ -12,6 +12,8 @@
 }
 
 /* shared styles */
+
+
 .btn{
     width: 164px;
     height: 44px;
@@ -202,4 +204,62 @@ nav .menu a{
     font-size: 15px;
     line-height: 24px;
     color: #757575;
+}
+
+#brain{
+    width: 100%;
+    height: 840px;
+    padding: 120px 120px;
+    background-color: #FFFFFF;
+}
+
+.brain-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.brain-content{
+    flex: 1;
+}
+
+.brain-content .message{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #30B868
+}
+
+.brain-content .title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 24px;
+}
+
+.brain-content p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.brain-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.brain-list li{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    line-height: 24px;
 }
