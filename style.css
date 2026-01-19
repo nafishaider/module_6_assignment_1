@@ -31,15 +31,20 @@
 
 /* main styles */
 
-nav{
-    width: 100%;
+.nav-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 16px 24px;
+
     display: flex;
-    justify-content: space-between;
-    padding: 16px 120px;
     align-items: center;
-    background-color: #FFFFFF;
+    justify-content: space-between;
 }
 
+nav {
+    width: 100%;
+    background-color: #FFFFFF;
+}
 nav .menu{
     display: flex;
     list-style-type: none;
