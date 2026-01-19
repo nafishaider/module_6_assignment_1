@@ -58,7 +58,7 @@ nav .menu a{
     gap: 32px;
     width: 100%;
     height: 674px;
-    background-image:linear-gradient( rgba(12, 30, 50, 0.11), rgba(12, 30, 50, 0.104)),url("/assets/hero-bg.png");
+    background-image:linear-gradient( rgba(12, 30, 50, 0.11), rgba(12, 30, 50, 0.104)),url("./assets/hero-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,8 +69,6 @@ nav .menu a{
 }
 
 .banner-content{
-    /* border: 5px solid red; */
-    /* padding-top: 51px; */
     width: 1360px;
     height: 379px;
     text-align: center;
